@@ -15,9 +15,13 @@ The program communicates with a main A/V control program through an EISC.  Withi
 In the xml file there are attributes for each shade that describe its angle from north, the size of an overhanging eave, and more.  This data is used by the program as it calculates the angle and elevation of the sun and determines if the sun is shining into the window or not.  
 
 The option field in the shade object can have several different entries
+
 "energy_save_optimal" - open/close shade to take advantage of the sun to help heat a room but close for insulation whenever possible
+
 "energy_save_aesthetics" - open/close shade to take advantage of the sun for heating a room but open for view whenever possible
+
 "art_save_optimal" - close whenever sun on window, otherwise open whether it is cloudy or not
+
 "art_save_aesthetics" - close whenever sun on window, otherwise close if it is sunny and open if cloudy
 
 Additional features of the Shade Manual
